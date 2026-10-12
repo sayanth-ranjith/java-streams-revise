@@ -11,6 +11,7 @@ As of today, it is meant for:
 - [streams/question1.md](streams/question1.md) — example question and solution around grouping and max salary in a department
 - [streams/question2.md](streams/question2.md) — first non-repeating (and first repeating) character in a String using `groupingBy` + `LinkedHashMap` + `counting()`
 - [streams/question3.md](streams/question3.md) — second / Nth highest salary (with duplicates) using `distinct()` + `sorted(reverseOrder())` + `skip()`, plus per-department variant
+- [streams/question4.md](streams/question4.md) — split employees into two groups with `partitioningBy` + downstream collectors, and why it differs from `groupingBy`
 
 ## Purpose
 Use this repo for fast revision, repeated practice, and interview recall before facing Java stream questions.

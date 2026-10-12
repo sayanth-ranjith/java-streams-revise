@@ -10,6 +10,7 @@ As of today, it is meant for:
 ## Contents
 - [streams/question1.md](streams/question1.md) — example question and solution around grouping and max salary in a department
 - [streams/question2.md](streams/question2.md) — first non-repeating (and first repeating) character in a String using `groupingBy` + `LinkedHashMap` + `counting()`
+- [streams/question3.md](streams/question3.md) — second / Nth highest salary (with duplicates) using `distinct()` + `sorted(reverseOrder())` + `skip()`, plus per-department variant
 
 ## Purpose
 Use this repo for fast revision, repeated practice, and interview recall before facing Java stream questions.

@@ -13,6 +13,7 @@ As of today, it is meant for:
 - [streams/question3.md](streams/question3.md) — second / Nth highest salary (with duplicates) using `distinct()` + `sorted(reverseOrder())` + `skip()`, plus per-department variant
 - [streams/question4.md](streams/question4.md) — split employees into two groups with `partitioningBy` + downstream collectors, and why it differs from `groupingBy`
 - [streams/question5.md](streams/question5.md) — `map` vs `flatMap`: flatten employee skills, unique skills, skill → names index, and `Collectors.flatMapping` per department
+- [streams/question6.md](streams/question6.md) — `Collectors.toMap` duplicate-key `IllegalStateException`, merge functions (first, concat, sum, `maxBy`), `LinkedHashMap`/`TreeMap` suppliers, and the null-value NPE trap
 
 ## Purpose
 Use this repo for fast revision, repeated practice, and interview recall before facing Java stream questions.
